@@ -8,7 +8,7 @@
 * 工具
   * IDEA
   * MySQL
-  * Toncat
+  * Tomcat
 * 项目结构
   * 持久层--Mybatis
   * 表现层--Servlet+JSP
