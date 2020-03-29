@@ -1,26 +1,26 @@
 ### 使用Spring+Mybatis开发的人员信息管理系统
 
 * 主要是用技术
-  ** Servlet、JSP
-  -SpringIOC、SpringAOP
-  -Mybatis
-  -Mybatis+Spring整合
+  * Servlet、JSP
+  * SpringIOC、SpringAOP
+  * Mybatis
+  * Mybatis+Spring整合
 * 工具
-  -IDEA
-  -MySQL
-  -Toncat
+  * IDEA
+  * MySQL
+  * Toncat
 * 项目结构
-  -持久层--Mybatis
-  -表现层--Servlet+JSP
-  -Spring--管理对象、切面处理
-  -sm父moudle
-    -全局定义与组织
-  -sm_service
-    -持久层、业务层
-    -Mybatis依赖、Spring依赖
-  -sm_web
-  	-表现层
-  	-Servlet依赖
+  * 持久层--Mybatis
+  * 表现层--Servlet+JSP
+  * Spring--管理对象、切面处理
+  * sm父moudle
+    * 全局定义与组织
+  * sm_service
+    * 持久层、业务层
+    * Mybatis依赖、Spring依赖
+  * sm_web
+    * 表现层
+    * Servlet依赖
 
 #### 项目中使用了一个核心控制器(DispatherServlet)对url进行解析，根据解析出来的结果调用对应的Controller方法，并将数据返回到jsp页面。
 #### 在项目的开发过程中，遇到了各式各样的问题
