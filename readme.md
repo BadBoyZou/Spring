@@ -1,7 +1,7 @@
 ### 使用Spring+Mybatis开发的人员信息管理系统
 
 * 主要是用技术
-  -Servlet、JSP
+  **Servlet、JSP
   -SpringIOC、SpringAOP
   -Mybatis
   -Mybatis+Spring整合
